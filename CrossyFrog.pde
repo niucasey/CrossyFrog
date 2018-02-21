@@ -80,6 +80,7 @@ void noCars() {
   if (timeytime.isFinished()) {
     state = 3; //start game
     timeytime.resetTimer(1000);
+    score = 0;
   }
 }
 
